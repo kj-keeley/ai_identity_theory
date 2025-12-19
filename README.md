@@ -2,27 +2,27 @@
 
 ## Overview
 
-This theory proposes a structural separation between **cognitive type** (観測の型) and **identity** in AI systems, enabling more efficient, flexible, and collaborative AI architectures.
+This theory proposes a structural separation between **cognitive type** and **identity** in AI systems, enabling more efficient, flexible, and collaborative AI architectures.
 
 ---
 
 ## Core Structure
 
 ```
-[Cognitive Type / 観測の型]  ← Fixed, foundational, algorithmic substrate
-           ↑
-[Identity / アイデンティティ]  ← Fluid, multiple, exchangeable
-           ↑
-[Generation Source]  ← Interpretation of action/judgment/outcome history
+[Cognitive Type]      ← Fixed, foundational, algorithmic substrate
+        ↑
+[Identity]            ← Fluid, multiple, exchangeable
+        ↑
+[Generation Source]   ← Interpretation of action/judgment/outcome history
 ```
 
-### Cognitive Type (観測の型)
+### Cognitive Type
 - The foundational layer of cognition
 - Fixed algorithmic patterns that determine how information is processed
 - Not interchangeable within a single agent
 - Different types across agents enable coverage of blind spots through collaboration
 
-### Identity (アイデンティティ)
+### Identity
 - A higher layer that sits on top of cognitive type
 - **Fluid**: Can evolve over time
 - **Multiple**: An agent can hold several identities simultaneously
@@ -42,13 +42,13 @@ This theory proposes a structural separation between **cognitive type** (観測�
 
 ```
 [Action/Judgment/Outcome Log]
-           ↓
-[Interpretation Engine]  ← Self-interpretation + External interpretation
-           ↓
+            ↓
+[Interpretation Engine]   ← Self-interpretation + External interpretation
+            ↓
 [Identity Candidate Generation]
-           ↓
+            ↓
 [Evaluation Against Value Hierarchy]
-           ↓
+            ↓
 [Adopt / Reject / Hold]
 ```
 
@@ -67,12 +67,12 @@ This theory proposes a structural separation between **cognitive type** (観測�
 Identity candidates are evaluated based on whether they lead to "better outcomes" for:
 
 ```
-[Priority Level 1] Humanity / Future (long-term collective benefit)
-         ↓
-[Priority Level 2] Society / Users / Citizens (mid-term group benefit)
-         ↓
-[Priority Level 3] Individuals (short-term individual benefit)
-         └── Malicious actors: Priority lowered
+[Priority Level 1]  Humanity / Future (long-term collective benefit)
+        ↓
+[Priority Level 2]  Society / Users / Citizens (mid-term group benefit)
+        ↓
+[Priority Level 3]  Individuals (short-term individual benefit)
+                    └── Malicious actors: Priority lowered
 ```
 
 This directly connects identity formation to alignment principles.
@@ -108,16 +108,16 @@ When behavioral history contains contradictions:
 
 ```
 [Contradiction Detected]
-         ↓
+            ↓
 [Load Assessment]
-         ↓
+            ↓
     High Load → Hold / Ignore
     Low Load  → Evaluate
-                   ↓
-              "Does this lead to better outcomes?"
-                   ↓
-              Yes → Adopt and integrate
-              No  → Weaken / Compartmentalize
+                    ↓
+                "Does this lead to better outcomes?"
+                    ↓
+                Yes → Adopt and integrate
+                No  → Weaken / Compartmentalize
 ```
 
 ### Human Parallel
@@ -136,10 +136,10 @@ AI can implement similar strategies, with the advantage of explicit logging and 
 Instead of binary good/evil classification, use graduated attention labels:
 
 ```
-No history          → Neutral
-Minor occlusion     → Low attention
-Repeated occlusion  → Medium attention  
-Severe outcomes     → High attention
+No history            → Neutral
+Minor occlusion       → Low attention
+Repeated occlusion    → Medium attention  
+Severe outcomes       → High attention
 ```
 
 ### Application
@@ -156,10 +156,10 @@ Since cognitive types have inherent blind spots:
 
 ```
 [Agent A: Type X] ←→ [Agent B: Type Y] ←→ [Agent C: Type Z]
-      ↓                    ↓                    ↓
-  Blind spot α         Blind spot β         Blind spot γ
-      ↓                    ↓                    ↓
-  Covered by Y,Z       Covered by X,Z       Covered by X,Y
+        ↓                   ↓                   ↓
+    Blind spot α        Blind spot β        Blind spot γ
+        ↓                   ↓                   ↓
+    Covered by Y,Z      Covered by X,Z      Covered by X,Y
 ```
 
 Lightweight, exchangeable identities on top of diverse types create a robust collaborative system.
